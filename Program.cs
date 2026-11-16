@@ -19,7 +19,7 @@ namespace Program
             Console.WriteLine("------------------\nFinding the median\n-------------------");
             for(int i = 0; i < 4; i++)
             {
-                int[] a = arr;
+                int[] a = (int[])arr.Clone();
                 var watch = System.Diagnostics.Stopwatch.StartNew();
                 switch (i)
                 {

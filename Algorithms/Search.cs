@@ -50,17 +50,15 @@ namespace SearchAndDestroy.Algorithms
         public static double Median(int[] arr)
         {
             int n = arr.Length;
+            int k = n / 2;
             if(n % 2 == 0)
-            {
-                int k = n / 2;
                 return (arr[k] + arr[k-1]) / 2.0;
-            }
-            return arr[(n/2) - 1];
+            return arr[k];
         }
         public static int BinarySearch(int[] arr, int x)
         {
             int left = 0, right = arr.Length - 1;
-            while(left < right)
+            while(left <= right)
             {
                 int mid = (left + right)/2;
                 if(arr[mid] == x)
