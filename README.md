@@ -66,8 +66,8 @@ HeapSort: <time> ms
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/words10/SearchAndDestoy
-   cd SearchAndDestoy
+   git clone https://github.com/words10/SearchAndDestroy
+   cd SearchAndDestroy
    ```
 
 2. **Compile and run:**
