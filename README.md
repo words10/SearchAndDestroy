@@ -48,10 +48,10 @@ Number of elements (N):
 ------------------
 Finding the median
 -------------------
-QuickSelect: <time> ms
-ShellSort: <time> ms
-QuickSort: <time> ms
-HeapSort: <time> ms
+QuickSelect: 11 ms
+ShellSort: 263 ms
+QuickSort: 281 ms
+HeapSort: 327 ms
 ```
 
 ---
@@ -81,8 +81,6 @@ Use the Release configuration. Debug builds are unoptimized and skew the timings
 ---
 
 ## 📈 Results
-
-Fill in after running on your machine.
 
 | N | Quickselect (ms) | Shell Sort (ms) | Quick Sort (ms) | Heap Sort (ms) |
 | :--- | :--- | :--- | :--- | :--- |
